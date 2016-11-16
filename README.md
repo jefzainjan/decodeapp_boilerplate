@@ -23,50 +23,26 @@ decode App Boilerplate for NodeHeroku Dev Setup
 
 <strong>Tasks - Setup</strong>
 
-  ☐ ```$ node -v```
-  
-  ☐ ```$ git --version```
-
-  ☐ ```$ cd /d```
-  
-  ☐ ```$ git clone https://github.com/clydeinwebdev/decodeapp_boilerplate.git myapp```
-
-  ☐ ```$ cd myapp```
-  
-  ☐ ```$ npm install```
-  
-  ☐ ```$ node server```
-
+  1. ```$ node -v```  
+  1. ```$ git --version```
+  1. ```$ cd /d```
+  1. Fork this repo and verify your own github repo's if there is such a ```decodeapp_boilerplate``` repo added to your list of repo.
+  1. ```$ git clone https://github.com/yourusername/decodeapp_boilerplate.git myapp```
+  1. ```$ cd myapp```  
+  1. ```$ npm install```  
+  1. ```$ node server```
+  1. Open browser and navigate to http://localhost:4000 or http://127.0.0.1:4000
 
 <strong>Tasks - Upload code from local to remote repo</strong>
 
-  ☐ Create new repo ```myapp```
-  
-  ☐ ```$ cd /d```
-  
-  ☐ ```$ mkdir github```
-  
-  ☐ ```$ cd github```
-  
-  ☐ ```$ git clone https/github.com/yourgithub-username/myapp.git```
-  
-  ☐ ```$ cd myapp```
-
-  ☐ Copy your files from myapp to github/myapp
-
-  ☐ ```$ git init```
-
-  ☐ ```$ git add .```
-  
-  ☐ ```$ git config user.email "youremail@example.com"```
-
-  ☐ ```$ git config user.name "yourgithubname"```
-
-  ☐ ```$ git commit -m "first commit"```
-
-  ☐ ```$ git remote add origin https://github.com/yourgithub-username/myapp.git```
-
-  ☐ ```$ git push -u origin master```
+  1. ```$ git add .```
+  1. ```$ git config user.email "youremail@example.com"```
+  1. ```$ git config user.name "yourgithubname"```
+  1. ```$ git commit -m "first commit"```
+  1. ```$ git remote add origin https://github.com/yourgithub-username/myapp.git```
+  1. ```$ git push -u origin master```
+  1. Type your github username then password.
+  1. Done. Reload your repo and verify if all files have been updated.
   
 <hr/>
 
